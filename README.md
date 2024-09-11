@@ -1,35 +1,81 @@
-# Web app for managing bug fixes || Aplicație web pentru gestionarea bug-urilor
+# Web App for Managing Bug Fixes | Aplicație Web pentru Gestionarea Bug-urilor
 
-The project consists in the development of a web application dedicated to the management and resolution of bugs within a software application. The main purpose of the application is to facilitate communication between members of a development team to identify, monitor and resolve bugs in an efficient manner. The platform will be built as a web application with a Single Page Application architecture, accessible from various devices, including desktop, mobile and tablets, to meet user preferences. Key features of the app include allowing students to log in with an email-based account, registering software projects for monitoring, adding members as testers, and logging bugs with information such as severity, priority, description, and commit link associate. Project members can view bugs, assign their resolution, and, after resolution, add a status with a link to the corresponding commit. The app also includes a permissions system to manage access rights, allowing project members to add and modify projects or update bug status, while testers have the ability to add new bugs.
+*******************************************************
+(video)
+*******************************************************
+ 
+## Overview | Prezentare Generală
 
-The project focuses on developing and understanding the interaction between front-end and back-end within a web application, focusing on managing and resolving bugs within an application.
-The structure of the project is organized into three main components: HTML, CSS and JavaScript. The project integrates and communicates with a back-end server to perform operations such as listing and resolving bugs. Concepts like CORS (Cross-Origin Resource Sharing) are used to allow access to back-end resources from the front-end. An important aspect is the organization of the project into separate components, with individual files for HTML, CSS and JavaScript. This structure allows for more efficient code management and modular development.
-The web application focuses on creating an intuitive interface for users where they can view and interact with bugs logged in the application. The implementation is based on the principles of client-server architecture, highlighting the importance of the front-end in providing a pleasant and functional user experience, with a focus on effective bug management and resolution.
+The project involves the development of a **web application** dedicated to the management and resolution of bugs within a software application. The main purpose of the application is to facilitate communication between members of a development team to identify, monitor, and resolve bugs efficiently. 
 
-Back-end
-Within the Controllers section, three main elements - `bugs.js` and `users.js` - handle operations for collections, bugs and users. To fix bugs, we focus on identifying and fixing errors in these modules.
-• For `bugs.js`, careful examination of the `create` and `update` functions will be performed, where there may be data manipulation issues. Resolving these bugs is critical to maintaining data integrity and the proper operation of the application.
-• In `users.js`, `create` and `update` functions will be checked to identify and fix possible bugs. These aspects are crucial to ensure proper management of user data.
-In the Models section, the files `bugs.js` and `users.js` define the data structures and relationships in the database. Their verification will ensure data integrity and avoid possible errors in the process of interacting with the database.
-In the Routes section, the files `bugs.js` and `users.js` contain the routes of the APIs. Improved request handling and proper error handling will contribute to the stable operation of the application.
-In the Services section, `bugs.js` and `users.js` contain the functions that interact with models to perform CRUD operations. In these modules, any bugs that might affect data consistency will be investigated and fixed.
-In the Main section, Express server configuration, middleware management and database connection are essential points. Fixing the bugs in this section ensures the overall stable operation of the application.
-By addressing and fixing bugs in each section, we aim to improve and correct the entire application.
+Proiectul constă în dezvoltarea unei **aplicații web** dedicate gestionării și rezolvării bug-urilor în cadrul unei aplicații software. Scopul principal al aplicației este facilitarea comunicării între membrii unei echipe de dezvoltare pentru identificarea, monitorizarea și rezolvarea bug-urilor într-un mod eficient.
 
- *******************************************************
+## Key Features | Funcționalități Esențiale
 
-Proiectul constă în dezvoltarea unei aplicații web dedicate gestionării și rezolvării bug-urilor în cadrul unei aplicații software. Scopul principal al aplicației este facilitarea comunicării între membrii unei echipe de dezvoltare pentru identificarea, monitorizarea și rezolvarea bug-urilor într-un mod eficient. Platforma va fi construită ca o aplicație web cu arhitectură de tip Single Page Application, accesibilă de pe diverse dispozitive, inclusiv desktop, dispozitive mobile și tablete, pentru a satisface preferințele utilizatorilor. Funcționalitățile esențiale ale aplicației includ posibilitatea ca studenții să se conecteze cu un cont bazat pe adresă de email, înregistrarea proiectelor software pentru monitorizare, adăugarea de membri ca testeri și înregistrarea bug-urilor cu informații precum severitatea, prioritatea, descrierea și legătura către commit-ul asociat. Membrii proiectului pot vizualiza bug-urile, aloca rezolvarea lor, și, după rezolvare, adăuga un status cu link către commit-ul corespunzător. De asemenea, aplicația include un sistem de permisiuni pentru a gestiona drepturile de acces, permițând membrilor proiectului să adauge și să modifice proiecte sau să actualizeze status-ul bug-urilor, în timp ce testerii au capacitatea de a adăuga noi bug-uri. 
+- **Single Page Application (SPA)** architecture accessible from various devices: desktop, mobile, and tablets.
+- **User Authentication**: Students can log in with an email-based account.
+- **Project Monitoring**: Ability to register software projects for bug tracking.
+- **Bug Management**: Log bugs with information like severity, priority, description, and associated commit link.
+- **Role-Based Permissions**: Manage access rights for project members to add and modify projects or update bug statuses, while testers can add new bugs.
 
-Proiectul se concentrează pe dezvoltarea și întelegerea interacțiunii dintre front-end și back-end în cadrul unei aplicații web, axându-se pe gestionarea și rezolvarea bug-urilor dintr-o aplicație.
-Structura proiectului este organizată în trei componente principale: HTML, CSS și JavaScript. Proiectul integrează și comunică cu un server back-end pentru a realiza operații precum listarea bug-urilor și rezolvarea acestora. Se utilizează concepte precum CORS (Cross-Origin Resource Sharing) pentru a permite accesul la resursele back-end din front-end. Un aspect important este organizarea proiectului în componente separate, cu fișiere individuale pentru HTML, CSS și JavaScript. Această structură permite o gestionare mai eficientă a codului și o dezvoltare modulară.
-Aplicația web se concentrează pe crearea unei interfețe intuitive pentru utilizatori, unde aceștia pot vizualiza și interacționa cu bug-urile înregistrate în aplicație. Implementarea se bazează pe principiile arhitecturii client-server, evidențiind importanța front-end-ului în furnizarea unei experiențe de utilizare plăcute și funcționale, cu accent pe gestionarea și rezolvarea eficientă a bug-urilor.
+- **Aplicație tip Single Page Application (SPA)** accesibilă de pe diverse dispozitive: desktop, dispozitive mobile și tablete.
+- **Autentificare utilizator**: Studenții se pot conecta cu un cont bazat pe adresă de email.
+- **Monitorizare proiecte**: Posibilitatea de a înregistra proiecte software pentru monitorizarea bug-urilor.
+- **Gestionarea bug-urilor**: Înregistrarea bug-urilor cu informații precum severitatea, prioritatea, descrierea și legătura către commit-ul asociat.
+- **Permisiuni bazate pe roluri**: Gestionarea drepturilor de acces pentru membrii proiectului pentru a adăuga și modifica proiecte sau a actualiza statusul bug-urilor, în timp ce testerii pot adăuga noi bug-uri.
 
-Back-end
-În cadrul secțiunii Controllers, trei elemente principale - `bugs.js` și `users.js` - gestionează operațiunile pentru colecții, bug-uri și useri. Pentru a rezolva bug-urile, focalizăm pe identificarea și remedierea erorilor din aceste module.
-•	Pentru `bugs.js`, se va realiza o examinare atentă a funcțiilor `create` și `update`, unde pot exista probleme legate de manipularea datelor. Rezolvarea acestor bug-uri este esențială pentru menținerea integrității datelor și funcționarea corectă a aplicației.
-•	În `users.js`, se vor verifica funcțiile `create` și `update` pentru a identifica și remedia eventualele bug-uri. Aceste aspecte sunt cruciale pentru asigurarea unei gestionări corespunzătoare a datelor despre useri.
-În secțiunea Models, fișierele `bugs.js` și `users.js` definesc structurile datelor și relațiile în baza de date. Verificarea acestora va asigura integritatea datelor și evitarea eventualelor erori în procesul de interacțiune cu baza de date.
-În secțiunea Routes, fișierele `bugs.js` și `users.js` conțin rutele API-urilor. Îmbunătățirea manipulării cererilor și gestionarea adecvată a erorilor vor contribui la funcționarea stabilă a aplicației.
-În secțiunea Services, `bugs.js` și `users.js` conțin funcțiile care interacționează cu modelele pentru a efectua operațiile CRUD. În aceste module, se va investiga și remedia orice bug care ar putea afecta coerența datelor.
-În secțiunea Main, configurarea serverului Express, gestionarea middleware-urilor și conectarea la baza de date sunt puncte esențiale. Rezolvarea bug-urilor în această secțiune asigură funcționarea generală stabilă a aplicației.
-Prin abordarea și rezolvarea bug-urilor în fiecare secțiune, se vizează îmbunătățirea și corectitudinea întregii aplicații.
+## Project Structure | Structura Proiectului
+
+The project focuses on understanding and developing the interaction between the **front-end** and **back-end** within a web application, specifically for bug management and resolution.
+
+Proiectul se concentrează pe dezvoltarea și înțelegerea interacțiunii dintre **front-end** și **back-end** în cadrul unei aplicații web, axându-se pe gestionarea și rezolvarea bug-urilor dintr-o aplicație.
+
+### Front-End
+
+The structure of the project is organized into three main components:
+
+- **HTML, CSS, JavaScript**: The project is organized into separate components with individual files for each. This modular development allows for efficient code management.
+- **Client-Server Architecture**: Emphasizes the importance of the front-end in providing a pleasant and functional user experience.
+
+Structura proiectului este organizată în trei componente principale:
+
+- **HTML, CSS, JavaScript**: Proiectul este organizat în componente separate, cu fișiere individuale pentru fiecare. Această dezvoltare modulară permite o gestionare eficientă a codului.
+- **Arhitectură Client-Server**: Evidențiază importanța front-end-ului în furnizarea unei experiențe de utilizare plăcute și funcționale.
+
+### Back-End
+
+The back-end is responsible for managing bug fixes and handling operations related to collections, bugs, and users. Key components include:
+
+- **Controllers**:
+  - `bugs.js`: Handles operations for bug collection, with a focus on the `create` and `update` functions for data manipulation.
+  - `users.js`: Manages user-related operations, with emphasis on the `create` and `update` functions for user data management.
+- **Models**:
+  - `bugs.js` and `users.js`: Define the data structures and relationships in the database.
+- **Routes**:
+  - API routes are defined in `bugs.js` and `users.js`, improving request handling and error management.
+- **Services**:
+  - CRUD operations are performed using `bugs.js` and `users.js` modules, where data consistency bugs are identified and fixed.
+- **Main**:
+  - Configures the Express server, manages middleware, and handles database connections to ensure overall stability.
+
+Back-end-ul este responsabil pentru gestionarea bug-urilor și manipularea operațiunilor legate de colecții, bug-uri și utilizatori. Componentele cheie includ:
+
+- **Controllers**:
+  - `bugs.js`: Gestionează operațiunile pentru colecția de bug-uri, concentrându-se pe funcțiile `create` și `update` pentru manipularea datelor.
+  - `users.js`: Gestionează operațiunile legate de utilizatori, cu accent pe funcțiile `create` și `update` pentru gestionarea datelor despre utilizatori.
+- **Models**:
+  - `bugs.js` și `users.js`: Definesc structurile datelor și relațiile în baza de date.
+- **Routes**:
+  - Rutele API-urilor sunt definite în `bugs.js` și `users.js`, îmbunătățind manipularea cererilor și gestionarea erorilor.
+- **Services**:
+  - Operațiile CRUD sunt realizate folosind modulele `bugs.js` și `users.js`, unde se identifică și remediază bug-uri care pot afecta consistența datelor.
+- **Main**:
+  - Configurează serverul Express, gestionează middleware-urile și conexiunile la baza de date pentru a asigura stabilitatea generală.
+
+## Conclusion | Concluzie
+
+By addressing and fixing bugs in each section, the goal is to improve the overall quality and stability of the application. The project emphasizes the importance of effective communication and collaboration within development teams to manage software bugs efficiently.
+
+Prin abordarea și rezolvarea bug-urilor în fiecare secțiune, se urmărește îmbunătățirea calității și stabilității generale a aplicației. Proiectul subliniază importanța comunicării și colaborării eficiente în cadrul echipelor de dezvoltare pentru gestionarea eficientă a bug-urilor software.
+
+---
