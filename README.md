@@ -1,7 +1,11 @@
 # Web App for Managing Bug Fixes | Aplicație Web pentru Gestionarea Bug-urilor
 
 *******************************************************
-https://youtu.be/QSkBtqw8lSQ
+
+<div align="center">
+    <iframe width="560" height="315" src="https://youtu.be/QSkBtqw8lSQ" frameborder="0" allowfullscreen></iframe>
+</div>
+
 *******************************************************
  
 ## Overview | Prezentare Generală
