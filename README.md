@@ -1,11 +1,11 @@
 # Web App for Managing Bug Fixes | Aplicație Web pentru Gestionarea Bug-urilor
 
 *******************************************************
-
-https://github.com/user-attachments/assets/ed7278a1-a594-4cc1-b13d-3f9660ef309f
-
+*IMPORTANT*
+*This project was developed by me during my time at university and was created using online resources and domain-specific books as sources of inspiration. The goal of this project was to explore and learn through practical examples, combining various information and techniques found in these resources to bring it to completion.*
+*Acest proiect a fost realizat de mine în timpul facultății și a fost creat folosind resurse de pe internet și cărți de specialitate drept surse de inspirație. Scopul acestui proiect a fost să explorez și să învăț prin intermediul unor exemple practice, combinând diverse informații și tehnici găsite în aceste resurse pentru a-l aduce la bun sfârșit.*
 *******************************************************
- 
+
 ## Overview | Prezentare Generală
 
 The project involves the development of a **web application** dedicated to the management and resolution of bugs within a software application. The main purpose of the application is to facilitate communication between members of a development team to identify, monitor, and resolve bugs efficiently. 
@@ -25,6 +25,12 @@ Proiectul constă în dezvoltarea unei **aplicații web** dedicate gestionării 
 - **Monitorizare proiecte**: Posibilitatea de a înregistra proiecte software pentru monitorizarea bug-urilor.
 - **Gestionarea bug-urilor**: Înregistrarea bug-urilor cu informații precum severitatea, prioritatea, descrierea și legătura către commit-ul asociat.
 - **Permisiuni bazate pe roluri**: Gestionarea drepturilor de acces pentru membrii proiectului pentru a adăuga și modifica proiecte sau a actualiza statusul bug-urilor, în timp ce testerii pot adăuga noi bug-uri.
+
+*******************************************************
+
+https://github.com/user-attachments/assets/ed7278a1-a594-4cc1-b13d-3f9660ef309f
+
+*******************************************************
 
 ## Project Structure | Structura Proiectului
 
