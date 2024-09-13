@@ -1,11 +1,9 @@
 # Web App for Managing Bug Fixes | Aplicație Web pentru Gestionarea Bug-urilor
 
 *******************************************************
-<div align="center">
-*IMPORTANT*
+                                                                                          *IMPORTANT*
 *This project was developed by me during my time at university and was created using online resources and domain-specific books as sources of inspiration. The goal of this project was to explore and learn through practical examples, combining various information and techniques found in these resources to bring it to completion.*
 *Acest proiect a fost realizat de mine în timpul facultății și a fost creat folosind resurse de pe internet și cărți de specialitate drept surse de inspirație. Scopul acestui proiect a fost să explorez și să învăț prin intermediul unor exemple practice, combinând diverse informații și tehnici găsite în aceste resurse pentru a-l aduce la bun sfârșit.*
-</div>
 
 *******************************************************
 
