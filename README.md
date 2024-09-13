@@ -2,9 +2,7 @@
 
 *******************************************************
 
-<div align="center">
-    [![Descriere Video](https://img.youtube.com/vi/QSkBtqw8lSQ/0.jpg)](https://youtu.be/QSkBtqw8lSQ) 
-</div>
+https://github.com/user-attachments/assets/ed7278a1-a594-4cc1-b13d-3f9660ef309f
 
 *******************************************************
  
