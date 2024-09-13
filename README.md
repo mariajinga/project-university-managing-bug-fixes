@@ -3,7 +3,7 @@
 *******************************************************
 
 <div align="center">
-    <iframe width="560" height="315" src="https://youtu.be/QSkBtqw8lSQ" frameborder="0" allowfullscreen></iframe>
+    [![Descriere Video](https://img.youtube.com/vi/QSkBtqw8lSQ/0.jpg)](https://youtu.be/QSkBtqw8lSQ) 
 </div>
 
 *******************************************************
