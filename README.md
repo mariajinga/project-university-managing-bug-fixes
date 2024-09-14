@@ -30,7 +30,7 @@ Proiectul constă în dezvoltarea unei **aplicații web** dedicate gestionării 
 
 *******************************************************
 
-https://github.com/user-attachments/assets/ed7278a1-a594-4cc1-b13d-3f9660ef309f
+https://github.com/user-attachments/assets/eba215e3-295e-4977-bbd3-433619ee34f1
 
 *******************************************************
 
